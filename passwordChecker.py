@@ -1,5 +1,3 @@
-
-
 import streamlit as st
 import re
 
@@ -70,7 +68,12 @@ st.markdown("""
 
 
 # Title with animation
-st.markdown(' <h1 class="title-text"> 🔐 Password Strength Checker</h1>', unsafe_allow_html=True)
+st.markdown('''
+<h1 style="text-align: center;">
+    <span style="font-size: 42px;">🔐</span>
+    <span class="title-text">Password Strength Checker</span>
+</h1>
+''', unsafe_allow_html=True)
 
 # Subtitle with animation
 st.markdown("""
